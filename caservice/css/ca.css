@@ -1,0 +1,529 @@
+/*全体のフォント指定 ------------------- */
+body{
+  font-family: "Hiragino Kaku Gothic Pro" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.wrapvideo{
+  width: 100%;
+  height: 724px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+
+.fixed{
+  position: fixed;
+  top: 0px;
+	left: 0px;
+  z-index: 9999;
+}
+
+.content{
+  width: 100%;
+}
+
+.content video{
+  width: 100%;
+}
+
+.nav6{
+  height: 88px;
+  width: 100%;
+  background-color: #ffffff;
+
+
+}
+
+#a1{
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  margin: 0 auto;
+  height: 50px;
+  align-items: center;
+}
+
+#a1 h1{
+  width: 206px;
+
+}
+.nav6 ul{
+  display: flex;
+  justify-content: space-between;
+  width: 770px;
+
+}
+
+.kensaku{
+    background-color:#eeeeee;
+    width:100%;
+    height:38px;
+
+}
+.kensaku .inner{
+  text-align: right;
+  padding-top: 4px;
+}
+
+.inner{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+
+
+/*サービス ------------------- */
+
+#services .inner{
+  text-align: center;
+  position: relative;
+}
+
+
+.hidari{
+  position: absolute;
+  top: 240px;
+  left: -80px;
+}
+
+.migi{
+  position: absolute;
+  top: 240px;
+  right: -80px;
+}
+
+.maru{
+margin-top: 30px;
+}
+
+
+.card3{
+  width: 1008px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 26px;
+  margin-left: -42px;
+}
+
+/*.card3 ul li{
+  display: flex;
+  justify-content: space-between;
+}*/
+
+.sentence{
+  position:absolute;
+  top: 240px;
+  left: 20px;
+  width: 310px;
+
+}
+
+#services{
+  width: 100%;
+  height: 524px;
+  background: url("../img/bg.png") no-repeat;
+  background-size: cover;
+
+}
+.serviceimg{
+  position: absolute;
+  top: 0;
+ left: 0;
+}
+
+.service1{
+  width: 378px;
+  height: 346px;
+  position: relative;
+}
+
+.service2{
+  width: 378px;
+  height: 346px;
+position: relative;
+
+
+}
+.service3{
+  width: 378px;
+  height: 346px;
+  position: relative;
+}
+
+
+#services h2{
+  padding-top: 26px;
+  color: #ffffff;
+  font-family: HelveticaNeue-MediumItalic;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+}
+
+#services h3{
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+#services p{
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/*ランキング ------------------- */
+
+
+#ranking{
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #fffffff;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.pickupinner{
+  cursor: pointer;
+  position: absolute;
+  width: 330px;
+  height: 366px;
+  background: url(../img/card1.png) no-repeat;
+
+}
+.pp2{
+  background: url(../img/card2.png) no-repeat;
+
+}
+.pp3{
+  background: url(../img/card3.png) no-repeat;
+
+}
+.pp4{
+  background: url(../img/card4.png) no-repeat;
+
+}
+
+.aka{
+  color: red;
+}
+
+.akaline{
+display: flex;
+
+
+}
+
+.inner2{
+  text-align: center;
+  position: relative;
+  background-color: #ffffff;
+  width: 306px;
+  height: 126px;
+  top: 238px;
+  left: 4%;
+
+
+}
+
+.label{
+width: 120px;
+height: 33px;
+opacity: 0.8;
+position: relative;
+left: 104px;
+top: 105px;
+
+}
+
+.label p{
+  color: #ffffff;
+  font-size:12px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: 8px;
+
+}
+.game{
+  background-color:#e8c831;
+}
+
+.movie{
+  background-color: #e4007f;
+
+}
+
+.community{
+  background-color: #e60012;
+
+}
+
+.etc{
+  background-color: #0000ff;
+}
+
+
+
+#ranking .inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+#pickup{
+  width: 686px;
+}
+
+
+#ranking2 .inner2{
+  text-align: center;
+  position: relative;
+
+}
+
+
+
+
+
+#ranking h2
+{color: #000000;
+font-family: HelveticaNeue-MediumItalic;
+font-size: 36px;
+letter-spacing: 0.1em;
+}
+#ranking2 h3{
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+#ranking2{
+  width: 346px;
+}
+
+
+li{
+margin:0px;
+padding:0px;
+
+}
+
+.pickupimg{
+  position: absolute;
+  left: 0;
+  top;0;
+
+}
+
+.sentence2{
+
+  text-align: center;
+  top: 40px;
+  position: relative;
+
+}
+
+.sentence2 h4{
+
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+}
+
+
+#grid {
+	width: 686px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.pickupinner{
+  width: 330px;
+  height: 393px;
+  position: relative;
+}
+
+
+#ranking{
+  display: flex;
+}
+
+.sentence3{
+  margin-top: 16px;
+  margin-left: 20px;
+  width: 176px;
+
+}
+
+
+.rankingflat{
+  display: flex;
+  margin-top: 10px}
+
+
+
+
+#ranking2 h4{
+  color: #c3a21d;
+  font-size: 10px;
+}
+
+.rankinglist{
+  width: 303px;
+  margin-left: 20px;
+}
+
+
+.rankingtittle{
+  margin-top: 20px;
+}
+
+.rankingtittle2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.sen3{
+  margin-bottom: 30px;
+}
+
+#ranking2 a:link,
+#ranking2 a:visited{
+  color:#000;text-decoration:none;
+}
+#ranking2 a:hover{
+  color:#82be28;text-decoration:none;transition: 0.4s ;
+}
+
+
+
+.hovweek{
+  opacity: 0.4;
+
+}
+
+.hovweek a:hover{
+  opacity: 2.0;
+}
+
+
+
+
+/*.week a:link, a:hover{
+  color:#82be28;
+  text-decoration:none;
+}
+.week a:visited{
+  color:#000;
+  text-decoration:none;
+}
+.week a:active{
+  color:#000;
+  text-decoration:none;
+ }*/
+
+
+.week{
+  display: flex;
+  width: 182px;
+  background-color: #ffffff;
+  height: 28px;
+  justify-content: space-around;
+  margin: -10px auto 0;
+}
+
+.more{
+  text-align: center;
+  margin-top: 14px;
+}
+
+.card5{
+  border: 1px #dddddd solid;
+  height: 688px;
+
+}
+
+#pickup h3{
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+
+
+/*フッタ ------------------- */
+
+footer{
+  clear: both;
+  background-color: #000000;
+  height: 354px;
+　
+}
+
+footer a:link,
+footer a:visited{
+  color:#FFF;text-decoration:none;
+}
+footer a:hover{
+  color:#82be28;text-decoration:none;transition: 0.4s ;
+}
+
+.footer{
+  width: 1280px;
+  margin: 0 auto;
+}
+
+footer ul{
+  width: 100%;
+  padding-top: 60px;
+  margin-bottom: 60px;
+  display: table;
+  table-layout: fixed;
+}
+
+.sns{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+    vertical-align: top;
+    font-size: 0;
+    line-height: 0;
+}
+.twitter{
+  margin-left: 100px;
+}
+
+.logo2{
+  width: 200px;
+display: block;
+margin: 0 auto;
+}
+
+footer li{
+  float: none;
+  display: table-cell;
+  text-align: center;
+color: #ffffff;
+font-size: 12px;
+letter-spacing: 0.1em;
+}
+
+footer p{
+  color: #ffffff;
+  font-size: 9px;
+  text-align: center;
+  margin: 20px 0;
+}
