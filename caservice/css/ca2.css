@@ -16,6 +16,20 @@ a:hover {
    text-decoration:none;
   }
 
+.midori a:link {
+     color:#000;
+      text-decoration:none;
+   }
+.midori a:visited {
+    color:#000;
+    text-decoration:none;
+  }
+.midori a:hover {
+   color:#82be28;
+   text-decoration:none;
+  }
+
+
 
 .fixed{
   position: fixed;
@@ -73,9 +87,30 @@ a:hover {
 .inner{
   width: 1080px;
   margin: 0 auto;
+  display: flex;
+}
+
+.inner p{
+  margin-top: 6px;
+  margin-right: 384px;
 }
 
 
+
+
+
+.inner a:link {
+     color:#000;
+      text-decoration:none;
+   }
+.inner a:visited {
+    color:#000;
+    text-decoration:none;
+  }
+.inner a:hover {
+   color:#82be28;
+   text-decoration:none;
+  }
 
 
 

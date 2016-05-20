@@ -10,6 +10,7 @@ body{
   height: 724px;
   overflow: hidden;
   background-color: #000;
+
 }
 
 
@@ -32,6 +33,7 @@ body{
   height: 88px;
   width: 100%;
   background-color: #ffffff;
+  /*opacity: 0.9;*/
 
 
 }
@@ -58,6 +60,7 @@ body{
 
 .kensaku{
     background-color:#eeeeee;
+    /*opacity: 0.9;*/
     width:100%;
     height:38px;
 
@@ -158,7 +161,7 @@ position: relative;
   padding-top: 26px;
   color: #ffffff;
   font-family: HelveticaNeue-MediumItalic;
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: 0.1em;
 }
 
@@ -298,7 +301,7 @@ top: 105px;
 #ranking h2
 {color: #000000;
 font-family: HelveticaNeue-MediumItalic;
-font-size: 36px;
+font-size: 30px;
 letter-spacing: 0.1em;
 }
 #ranking2 h3{
